@@ -27,10 +27,13 @@ Users can change their password at any time after logging in.
 ### 7. CRUD Operations: 
 Users can perform Create, Read, Update, and Delete operations on any coach or member information, making it easy to manage the gym's data.
 
-## Screenshot's: ![Login Page](https://user-images.githubusercontent.com/110332302/235238890-2c9b9311-20e4-4ddd-9802![Signup Page](https://user-images.githubusercontent.com/110332302/235238954-6a6cd4b4-5f1a-44e5-96c6-f44a005663eb.png)
--0ae9a3dea6be.png)
-![forget Password](https://user-images.githubusercontent.com/110332302/235238984-c770c11d-1304-4cfa![Dashboard](https://user-images.githubusercontent.com/110332302/235239035-7913017a-5dd1-45cd-841d-53ae69aaea83.png)
--b7b5-b5fdd0a01be5.png)
+## Screenshot's: 
+![Login Page](https://user-images.githubusercontent.com/110332302/235241118-8722485e-f7de-4288-b182-0e51b246cdee.png)
+![Signup Page](https://user-images.githubusercontent.com/110332302/235241184-cf8a0da2-8118-48d9-abe3-61edb1638f3b.png)
+![forget Password](https://user-images.githubusercontent.com/110332302/235241222-726ef6fa-150a-4706-a561-d516df9bde11.png)
+
+
+
 ![Coaches Info](https://user-images.githubusercontent.com/110332302/235239064-a3614eee-55a7-4fbc-a423-cc3290c89115.png)
 
 ![CoachesListDownload](https://user-images.githubusercontent.com/110332302/235239085-3d8f7fc3-8765-4792-8706-f283c5ac2ca9.png)
