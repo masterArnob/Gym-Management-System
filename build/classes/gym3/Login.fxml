@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1120.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gym3.LoginController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane prefHeight="804.0" prefWidth="446.0" style="-fx-background-color: black;">
+               <children>
+                  <Label alignment="CENTER" layoutX="-1.0" layoutY="352.0" prefHeight="40.0" prefWidth="446.0" text="Gym Management System" textFill="WHITE">
+                     <font>
+                        <Font name="Calibri" size="34.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+            <Label layoutX="649.0" layoutY="329.0" text="Email : ">
+               <font>
+                  <Font name="Calibri" size="19.0" />
+               </font></Label>
+            <Label layoutX="649.0" layoutY="392.0" text="Password : ">
+               <font>
+                  <Font name="Calibri" size="19.0" />
+               </font></Label>
+            <TextField fx:id="email" layoutX="750.0" layoutY="324.0" style="-fx-background-color: #ddd;" />
+            <PasswordField fx:id="password" layoutX="750.0" layoutY="387.0" style="-fx-background-color: #ddd;" />
+            <Button fx:id="doLogin" layoutX="688.0" layoutY="477.0" mnemonicParsing="false" onAction="#doLogin" prefHeight="47.0" prefWidth="254.0" style="-fx-background-color: black;" text="Login" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Label layoutX="737.0" layoutY="544.0" text="Create account? ">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font></Label>
+            <Hyperlink layoutX="852.0" layoutY="540.0" onAction="#gotosignup" text="Signup">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font></Hyperlink>
+            <Label alignment="CENTER" layoutX="507.0" layoutY="116.0" prefHeight="59.0" prefWidth="617.0" text="Login">
+               <font>
+                  <Font size="55.0" />
+               </font>
+            </Label>
+            <Label fx:id="status" layoutX="942.0" layoutY="329.0" prefHeight="22.0" prefWidth="161.0" textFill="#ff4b4b" />
+            <Hyperlink layoutX="815.0" layoutY="418.0" onAction="#gotoforgetpassword" opacity="0.76" text="Forget password?" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="532.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gym3.RecoveryAccountController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane fx:id="recoveryAccount" layoutX="132.0" layoutY="130.0" prefHeight="846.0" prefWidth="663.0" style="-fx-background-color: black;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Button fx:id="gotosettings" layoutX="26.0" layoutY="25.0" mnemonicParsing="false" onAction="#gotosettings" prefHeight="49.0" prefWidth="106.0" style="-fx-background-color: #1c1c1c;" text="&lt;-" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Label layoutX="156.0" layoutY="35.0" prefHeight="29.0" prefWidth="100.0" text="About" textFill="#dddddd">
+                     <font>
+                        <Font name="Arial Black" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="26.0" layoutY="362.0" prefHeight="29.0" prefWidth="140.0" text="Javabot UI version" textFill="#dddddd">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="26.0" layoutY="405.0" prefHeight="29.0" prefWidth="140.0" text="V1.0" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="26.0" layoutY="215.0" prefHeight="29.0" prefWidth="140.0" text="Creator Name" textFill="#dddddd">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="26.0" layoutY="258.0" prefHeight="29.0" prefWidth="178.0" text="Sadmanul Hoque Arnob" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="26.0" layoutY="545.0" prefHeight="29.0" prefWidth="315.0" text="© 2023 All rights reserved. Sadmanul Hoque" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="26.0" layoutY="502.0" prefHeight="29.0" prefWidth="140.0" text="Legal Information" textFill="#dddddd">
+                     <font>
+                        <Font name="Arial Black" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="c85da128-7129-45a5-adf2-a8937dc860b8">
+	<property name="ireport.zoom" value="1.771561000000001"/>
+	<property name="ireport.x" value="332"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+ *
+FROM
+     coach]]>
+	</queryString>
+	<field name="coachid" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="name" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="address" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="gender" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="phone" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="status" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="105" splitType="Stretch">
+			<staticText>
+				<reportElement x="305" y="23" width="224" height="40" uuid="6a93a0da-9def-48ec-a126-49505f660ede"/>
+				<textElement textAlignment="Center">
+					<font size="24" isBold="true"/>
+				</textElement>
+				<text><![CDATA[The Fitness Club]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="646" y="3" width="42" height="20" uuid="c917c79e-0042-415e-ba2c-2f2b9c1446d7"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Date : ]]></text>
+			</staticText>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement x="688" y="3" width="94" height="20" uuid="28a2b36b-b726-44a3-a2a4-16c0b310ebe0"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="57" splitType="Stretch">
+			<staticText>
+				<reportElement x="11" y="15" width="126" height="18" uuid="09911d37-3004-4c5d-92e5-d7835111a197"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Coach Data List : ]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="54" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="23" width="100" height="20" uuid="e88ae1ef-23af-4d15-9040-40dd989623d9"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Coach ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="100" y="23" width="100" height="20" uuid="aadd990c-4195-4d32-a324-f82c09e0564c"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="23" width="100" height="20" uuid="065d9731-92f6-4e6d-9583-8a98d2be03c4"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Address]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="300" y="23" width="100" height="20" uuid="fca8c296-85ab-41ac-957f-65900914ebd3"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Gender]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="400" y="23" width="100" height="20" uuid="43cc949f-32d1-4e36-9013-d1bf6a4a7e12"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Phone]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="500" y="23" width="100" height="20" uuid="2fc35b41-4c9b-4e5d-b311-af4068875084"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Status]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="62" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="24" width="100" height="20" uuid="ab2df02d-f724-4d44-a45b-88521a9b1955"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{coachid}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="24" width="100" height="20" uuid="7ec17545-331d-4ce3-a0df-1a88b73653da"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="200" y="24" width="100" height="20" uuid="beee236f-eb71-43d9-bd9d-bddbc2ea3dd4"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{address}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="24" width="100" height="20" uuid="9237214d-0ff7-4ec4-a0b3-7522883263d9"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{gender}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="400" y="24" width="100" height="20" uuid="1743afe8-6a0e-43ef-acbe-6ac2219785b1"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{phone}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="500" y="24" width="100" height="20" uuid="436467c6-0ce3-4538-a9dc-cbe07d118395"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{status}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="11" y="6" width="601" height="1" uuid="7cb01709-245c-4582-b3dc-67e4dfe90d1c"/>
+			</line>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="3" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="1" splitType="Stretch"/>
+	</summary>
+</jasperReport>
